@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100vw;
+}
+
+.profile-photo {
+	background-color: blue;
+	width: 240px;
+	height: 240px;
+	background-image: url("profile-photo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
